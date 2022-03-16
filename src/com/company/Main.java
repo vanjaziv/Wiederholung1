@@ -39,6 +39,11 @@ public class Main {
                 && zeit.equals("Nacht")) {
             System.out.println("WE-Nacht-Tarif!");
         }
+        int i = 0;
+        while (i < 10) {
+            System.out.println("Ergebnis: " + i);
+            i = i + 1;
+        }
     }
 
     private static void printWeather(String weather) {
